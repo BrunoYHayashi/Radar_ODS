@@ -1,0 +1,52 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 16px 24px; /* era 48px embaixo */
+  gap: 24px;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: #1a2e4a;
+  margin-bottom: 4px;
+}
+
+.header p {
+  font-size: 13px;
+  color: #777;
+}
+
+.body {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 1120px;
+}
+
+.radarPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px; /* era 10px */
+}
+
+.radarPanel svg {
+  filter: drop-shadow(0 8px 28px rgba(0, 0, 0, 0.12));
+  display: block; /* remove o gap inline do SVG */
+}
+
+.hint {
+  font-size: 11px;
+  color: #bbb;
+}
